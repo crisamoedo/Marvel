@@ -1,10 +1,9 @@
 //
 //  ViewController.swift
-//  Marvel
+//  SearchBarEjemplo
 //
-//  Created by Cristina Amoedo Fragueiro on 21/11/23.
+//  Created by Jorge Abalo Dieste on 26/11/23.
 //
-
 import UIKit
 import CryptoKit
 
