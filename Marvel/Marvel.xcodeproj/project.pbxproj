@@ -25,7 +25,6 @@
 		863E21532B15F44D002B3ADF /* ComicListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E21522B15F44D002B3ADF /* ComicListCoordinator.swift */; };
 		863E21552B15F4E7002B3ADF /* ComicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E21542B15F4E7002B3ADF /* ComicListViewModel.swift */; };
 		86421EBB2B109EA40058D1AE /* ComicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86421EBA2B109EA40058D1AE /* ComicListViewController.swift */; };
-		B1D1ABDE2B2713F200F97650 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1ABDD2B2713F200F97650 /* CharactersListViewController.swift */; };
 		B1D1ABE02B27144E00F97650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1ABDF2B27144E00F97650 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +49,6 @@
 		863E21522B15F44D002B3ADF /* ComicListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListCoordinator.swift; sourceTree = "<group>"; };
 		863E21542B15F4E7002B3ADF /* ComicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListViewModel.swift; sourceTree = "<group>"; };
 		86421EBA2B109EA40058D1AE /* ComicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListViewController.swift; sourceTree = "<group>"; };
-		B1D1ABDD2B2713F200F97650 /* CharactersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewController.swift; sourceTree = "<group>"; };
 		B1D1ABDF2B27144E00F97650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 				862086C32B0CD2A2001D3D39 /* Assets.xcassets */,
 				862086C52B0CD2A2001D3D39 /* LaunchScreen.storyboard */,
 				862086C82B0CD2A2001D3D39 /* Info.plist */,
-				B1D1ABD42B1DD31100F97650 /* FCharactersList */,
 				8629EDED2B19D25900189A1C /* Extensions */,
 				86421EB92B109E860058D1AE /* ComicList */,
 				8629EDEE2B19D42900189A1C /* StoriesList */,
@@ -147,14 +144,6 @@
 				863E21542B15F4E7002B3ADF /* ComicListViewModel.swift */,
 			);
 			path = ComicList;
-			sourceTree = "<group>";
-		};
-		B1D1ABD42B1DD31100F97650 /* FCharactersList */ = {
-			isa = PBXGroup;
-			children = (
-				B1D1ABDD2B2713F200F97650 /* CharactersListViewController.swift */,
-			);
-			path = FCharactersList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +227,6 @@
 				8629EDF22B19D6FF00189A1C /* StoriesListViewController.swift in Sources */,
 				8629EDEC2B19BE5D00189A1C /* HashExtension.swift in Sources */,
 				8629EDFE2B19D77300189A1C /* SeriesListCoordinator.swift in Sources */,
-				B1D1ABDE2B2713F200F97650 /* CharactersListViewController.swift in Sources */,
 				8629EE022B19D79F00189A1C /* SeriesListViewModel.swift in Sources */,
 				86421EBB2B109EA40058D1AE /* ComicListViewController.swift in Sources */,
 				B1D1ABE02B27144E00F97650 /* ViewController.swift in Sources */,
@@ -400,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A523V7ALY6;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,7 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A523V7ALY6;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
